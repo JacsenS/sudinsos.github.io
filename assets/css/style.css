@@ -1,0 +1,193 @@
+/* Kontainer gambar */
+.image-container {
+    position: relative;
+    overflow: hidden; /* Menyembunyikan bagian gambar yang keluar dari container */
+    height: auto; /* Biarkan tinggi otomatis berdasarkan gambar */
+    max-height: 200px; /* Atur tinggi maksimum untuk konsistensi */
+}
+
+/* Gambar */
+.image-container img {
+    width: 100%; /* Lebar gambar 100% dari container */
+    height: auto; /* Biarkan tinggi otomatis untuk menjaga rasio aspek */
+    object-fit: cover; /* Memastikan gambar terpotong secara proporsional */
+    object-position: center; /* Memusatkan gambar dalam container */
+}
+
+/* Navbar */
+.custom-navbar {
+    background-color: #b19cd9; /* Warna background navbar */
+    color: black; /* Warna teks navbar */
+}
+
+.custom-navbar .nav-link {
+    color: black; /* Mengubah warna link di navbar */
+}
+
+.custom-navbar .navbar-brand {
+    color: black; /* Mengubah warna brand (Dinas Sosial) */
+}
+
+/* Efek hover pada item navbar */
+.navbar-nav .nav-item {
+    position: relative;
+}
+
+.navbar-nav .nav-item:hover {
+    background-color: #800000; /* Warna solid biru */
+    border-radius: 5px; /* Lengkungan sudut */
+}
+
+/* Mengubah warna teks menjadi putih saat hover */
+.navbar-nav .nav-item:hover .nav-link {
+    color: white; /* Mengubah warna teks agar kontras */
+}
+
+/* Footer */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h5 {
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Card */
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Profil */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-header, .custom-footer {
+    position: relative;
+    z-index: 10;
+}
+
+.fullscreen-image {
+    position: relative;
+    height: calc(100vh - 150px); /* Adjust height based on header and footer height */
+    overflow: hidden;
+}
+
+.fullscreen-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Memastikan gambar menutupi area */
+}
+
+.logo {
+    height: 250px; /* Sesuaikan tinggi sesuai kebutuhan */
+    width: auto; /* Menjaga rasio aspek gambar */
+    margin-top: -80px; /* Sesuaikan margin atas jika diperlukan */
+    margin-bottom: -80px; /* Sesuaikan margin bawah jika diperlukan */
+}
+
+.navbar-toggler i {
+    color: white; /* Mengubah warna ikon */
+}
+
+/* Berita */
+.berita-img {
+    width: 100%; /* Atur lebar gambar agar memenuhi kolom */
+    height: 200px; /* Atur tinggi gambar */
+    object-fit: cover; /* Memastikan gambar tetap proporsional dan tidak terdistorsi */
+}
+
+.berita-detail-img {
+    width: 100%; /* Atur lebar gambar agar memenuhi kolom */
+    height: 100px; /* Atur tinggi gambar */
+    object-fit: cover; /* Memastikan gambar tetap proporsional dan tidak terdistorsi */
+}
+
+/* Berita Home */
+.main-content {
+    padding: 20px;
+}
+
+.news-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.news-image {
+    width: 100%;
+    height: auto;
+}
+
+.news-description {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.news-list {
+    list-style: none;
+    padding: 0;
+}
+
+.news-list li {
+    margin-bottom: 10px;
+}
+
+.news-list a {
+    text-decoration: none;
+    color: #000;
+}
+
+.news-list a:hover {
+    text-decoration: underline;
+}
+
+.news-date {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.btn-view-all {
+    margin-bottom: 20px;
+}
+
+.divider {
+    border-top: 1px solid #dee2e6;
+    margin: 20px 0;
+}
+
+/* Detail Berita */
+.text-justify {
+    text-align: justify;
+}
+
+/* Galeri */
+.image-container {
+    position: relative;
+    overflow: hidden; /* Menyembunyikan bagian gambar yang keluar dari container */
+    max-height: 200px; /* Atur tinggi maksimum untuk konsistensi */
+}
+
+.image-container img {
+    width: 100%; /* Lebar gambar 100% dari container */
+    height: auto; /* Biarkan tinggi otomatis untuk menjaga rasio aspek */
+    object-fit: cover; /* Memastikan gambar terpotong secara proporsional */
+    object-position: center; /* Memusatkan gambar dalam container */
+}
